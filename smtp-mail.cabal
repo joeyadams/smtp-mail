@@ -22,6 +22,7 @@ source-repository head
 library
   exposed-modules:
     Network.Mail.SMTP
+    Network.Mail.SMTP.Abstract
     Network.Mail.SMTP.Auth
     Network.Mail.SMTP.Types
 
@@ -37,5 +38,6 @@ library
                , mime-mail
                , network
                , text
+               , transformers
 
   ghc-options: -Wall -fwarn-tabs
